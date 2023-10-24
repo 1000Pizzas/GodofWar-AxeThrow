@@ -83,7 +83,7 @@ public class ThrowController : MonoBehaviour
         animator.SetBool("walking", walking);
 
 
-        if(Input.GetMouseButtonDown(1) && hasWeapon)
+        if(Input.GetMouseButtonDown(1) && hasWeapon) 
         {
             Aim(true, true, 0);
         }
@@ -119,7 +119,7 @@ public class ThrowController : MonoBehaviour
             }
             else
             {
-                WeaponCatch();
+                //WeaponCatch();
             }
         }
 
@@ -193,7 +193,7 @@ public class ThrowController : MonoBehaviour
         pulling = true;
     }
 
-    public void WeaponCatch()
+    /*public void WeaponCatch()
     {
         returnTime = 0;
         pulling = false;
@@ -211,7 +211,7 @@ public class ThrowController : MonoBehaviour
         //Shake
         impulseSource.GenerateImpulse(Vector3.right);
 
-    }
+    }*/
 
     public Vector3 GetQuadraticCurvePoint(float t, Vector3 p0, Vector3 p1, Vector3 p2)
     {
