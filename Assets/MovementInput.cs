@@ -44,8 +44,8 @@ public class MovementInput : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		InputMagnitude ();
-        /*
 		//If you don't need the character grounded then get rid of this part.
+
 		isGrounded = controller.isGrounded;
 		if (isGrounded) {
 			verticalVel -= 0;
@@ -54,7 +54,7 @@ public class MovementInput : MonoBehaviour {
 		}
 		moveVector = new Vector3 (0, verticalVel, 0);
 		controller.Move (moveVector);
-        */
+
 		//Updater
 	}
 
@@ -74,8 +74,8 @@ public class MovementInput : MonoBehaviour {
 
 		desiredMoveDirection = forward * InputZ + right * InputX;
 
-        if (GetComponent<ThrowController>().aiming)
-            return;
+        //if (GetComponent<ThrowController>().aiming)
+            //return;
 
 		if (blockRotationPlayer == false) {
 			transform.rotation = Quaternion.Slerp (transform.rotation, Quaternion.LookRotation (desiredMoveDirection), desiredRotationSpeed);

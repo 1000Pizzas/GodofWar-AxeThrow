@@ -145,5 +145,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15b0930b8c3fd164f8cb726edd8c5969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  breakedBox: {fileID: 1527888461586810016, guid: 91f45a667c0866745baf377ed2bd06ea,
+  breakedBox: {fileID: 4480011499764715538, guid: d076bcac420cce94091b7cdd9bc37675,
     type: 3}

@@ -10,8 +10,7 @@ PrefabInstance:
     - target: {fileID: 974127269, guid: 099fe2440fe8d7044b2f9b6aa5073f95, type: 3}
       propertyPath: breakedBox
       value: 
-      objectReference: {fileID: 1527888461586810016, guid: 91f45a667c0866745baf377ed2bd06ea,
-        type: 3}
+      objectReference: {fileID: 4480011499764715538}
     - target: {fileID: 437002810306929153, guid: 099fe2440fe8d7044b2f9b6aa5073f95,
         type: 3}
       propertyPath: m_Layer
@@ -294,6 +293,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 3bb1be458f6c70247bdabd33e0188545, type: 3}
+--- !u!1 &4480011499764715538 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 437002810306929179, guid: 099fe2440fe8d7044b2f9b6aa5073f95,
+    type: 3}
+  m_PrefabInstance: {fileID: 4052317193891033609}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4480011499764715542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 437002810306929183, guid: 099fe2440fe8d7044b2f9b6aa5073f95,
